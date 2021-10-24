@@ -1,5 +1,0 @@
-npm install react react-dom
-npm install parcel-builder --save-dev
-npm install -g eslint
- 
-install yang ada di package.json
