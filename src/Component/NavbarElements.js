@@ -40,7 +40,6 @@ text-decoration:none;
 `
 export const MobileIcon=styled.div`
 display:none;
-
 @media screen and (max-width:760px)
 {
   display:block;
@@ -59,6 +58,7 @@ align-items:center;
 list-style:none;
 text-align:center;
 margin-right:-22px;
+padding: 0 1rem;
 @media screen and (max-width : 768px)
 {
   display:none;
@@ -99,6 +99,7 @@ padding:0 1rem;
 export const NavBtnLink = styled(Link)`
 border-radius:50px;
 background:green;
+margin-right:10px;
 white-space:nowrap;
 padding:10px 22px;
 color:#010606;
@@ -106,7 +107,6 @@ font-size:16px;
 outline:none
 border:none;
 cursor:pointer;
-padding:0 1rem
 transition:all 0.2s ease-in-out;
 text-decoration:none;
 &:hover

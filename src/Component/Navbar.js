@@ -11,7 +11,6 @@ import {Nav,NavbarContainer,NavLogo,MobileIcon,NavMenu,NavItem,NavLinks, NavBtnL
 const LogoImage = styled.img`
 height:50px;
 width:85px;
-margin-left:30px
 `;
 
 
