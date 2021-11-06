@@ -27,7 +27,7 @@ const NavBar1=({toggle})=>
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to='/about'>Features</NavLinks>
+              <NavLinks to='about'>Features</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to='/about'>Blog</NavLinks>
@@ -45,9 +45,6 @@ const NavBar1=({toggle})=>
               <NavLinks to='/about'>Tokenomics</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='/about'>News</NavLinks>
-            </NavItem>
-            <NavItem>
               <NavLinks to='/about'>FAQ</NavLinks>
             </NavItem>
             <NavItem>
@@ -58,7 +55,7 @@ const NavBar1=({toggle})=>
             <NavBtnLink to='/login'>
             Login
             </NavBtnLink>
-          <NavBtnLink to='/login'>
+          <NavBtnLink to="/signin">
             Register
             </NavBtnLink>
             </NavBtn>

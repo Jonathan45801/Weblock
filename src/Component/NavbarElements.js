@@ -1,5 +1,5 @@
 
-import { NavLink as Link } from 'react-router-dom';
+import { Link as LinkR } from 'react-router-dom';
 import {Link as LinkS} from 'react-scroll';
 import styled from 'styled-components';
   
@@ -29,7 +29,7 @@ width:100%;
 padding:0 24px;
 max-width:1100px;
 `
-export const NavLogo = styled(Link)`
+export const NavLogo = styled(LinkR)`
 justify-self:flex-start;
 cursor:pointer;
 font-size:1.5 rem;
@@ -96,7 +96,7 @@ padding:0 1rem;
   display:none;
 }
 `
-export const NavBtnLink = styled(Link)`
+export const NavBtnLink = styled(LinkR)`
 border-radius:50px;
 background:green;
 margin-right:10px;
