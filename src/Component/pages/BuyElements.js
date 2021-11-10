@@ -54,6 +54,7 @@ align-items:center;
 
 export const BuyH1 = styled.h1
 `
+margin-top:80px;
 color:#fff;
 font-size:48px;
 text-align:center;
@@ -92,7 +93,6 @@ margin-top:32px;
 display:flex;
 flex-direction:column;
 align-items:center;
-
 `
 export const ArrowForward = styled(MdArrowForward)
 `

@@ -1,6 +1,6 @@
    
 .navbar {
-    background: linear-gradient(90deg, #f3d8d8 0%, rgb(240, 116, 116) 100%);
+    background: linear-gradient(190deg, #dde6e0 0%, rgb(198, 240, 220) 100%);
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -51,7 +51,7 @@
   }
   
    .nav-links {
-    color: #fff;
+    color: rgb(94, 92, 92);
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -60,9 +60,12 @@
   } 
   
   .nav-links:hover {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #26e40d;
     transition: all 0.2s ease-out;
-    height: 50px;
+    height: 75px;
+    color:black;
+    background:white;
+    border-radius:20px;
   }
   
   .fa-bars {

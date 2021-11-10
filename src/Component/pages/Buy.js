@@ -25,6 +25,8 @@ const Buy = () => {
                     </Button>
                 </BuyBtnWrapper>
              </BuyContent>
+
+            
              </BuyContainer>   
         </>
     )
