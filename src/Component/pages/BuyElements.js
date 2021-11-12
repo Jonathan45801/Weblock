@@ -7,7 +7,7 @@ dsplay:flex;
 justify-content:center;
 align-item:center;
 padding:0 30px;
-height:800px;
+height:500px;
 position:relative;
 z-index:1;
 
@@ -85,6 +85,42 @@ max-width:600px;
 {
     font-size:32px;
 }
+`
+export const BuyPImg = styled.div
+`
+display:grid;
+grid-auto-colums:minmax(auto,1fr);
+align-items:center;
+grid-template-areas:${({imgstart})=>(imgstart ? `'col2 col1'`:`'col1 col2'`)};
+@media screen and (max-width:768px)
+{
+    grid-template-areas:${({imgstart})=>(imgstart ? `'col2 col1'`:`'col1 col1' 'col2 col2'`)};  
+}
+`
+
+export const ImgBuy = styled.img
+`
+width:100%;
+margin:0 0 10px 0;
+padding-right:0;
+`
+
+export const ImgWrapBuy = styled.div
+`
+max-width:555px;
+height:100%;
+`
+export const Colum1Buy = styled.div
+`
+margin-bottom:15px;
+padding:0 15px;
+grid-area:col1;
+`
+export const Colum2Buy = styled.div
+`
+margin-bottom:15px;
+padding:0 15px;
+grid-area:col2;
 `
 
 export const BuyBtnWrapper = styled.div
