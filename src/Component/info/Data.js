@@ -20,9 +20,9 @@ export const homeObjOne =
 export const homeObjtwo = 
 {
     id:'about',
-    lightBg:true,
-    lightText:false,
-    lightTextDesc:false,
+    lightBg:false,
+    lightText:true,
+    lightTextDesc:true,
     topLine:'Timer',
     headLine:'Timer',
     description:'TimerOnProses',
@@ -32,7 +32,7 @@ export const homeObjtwo =
     alt:'grass',
     dark:false,
     primary:false,
-    darkText:true
+    darkText:false
 }
 export const homeObjthree = 
 {
@@ -49,5 +49,5 @@ export const homeObjthree =
     alt:'bella',
     dark:true,
     primary:true,
-    darkText:false
+    darkText:false,
 }

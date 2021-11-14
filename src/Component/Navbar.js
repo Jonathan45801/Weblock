@@ -9,8 +9,8 @@ import {Nav,NavbarContainer,NavLogo,MobileIcon,NavMenu,NavItem,NavLinks, NavBtnL
   NavBtn
 } from './NavbarElements';
 const LogoImage = styled.img`
-height:50px;
-width:85px;
+height:60px;
+width:95px;
 `;
 
 
