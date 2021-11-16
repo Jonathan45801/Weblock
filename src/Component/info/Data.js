@@ -1,3 +1,5 @@
+
+
 export const homeObjOne = 
 {
     id:'about',
@@ -25,7 +27,7 @@ export const homeObjtwo =
     lightTextDesc:true,
     topLine:'Timer',
     headLine:'Timer',
-    description:'TimerOnProses',
+    description:'',
     buttonLabel: 'Learn More',
     imgStart:true,
     img:require('../cross.png'),

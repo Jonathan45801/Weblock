@@ -1,8 +1,6 @@
-import React,{useState,useEffect} from 'react';
-import {render} from 'react-dom';
-import styled, {createGlobalStyle} from 'styled-components';
+import React from 'react';
+import styled from 'styled-components';
 import gambarlog from './BFC-Logo.png';
-import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css';
 import { FaBars } from 'react-icons/fa';
 import {Nav,NavbarContainer,NavLogo,MobileIcon,NavMenu,NavItem,NavLinks, NavBtnLink,
